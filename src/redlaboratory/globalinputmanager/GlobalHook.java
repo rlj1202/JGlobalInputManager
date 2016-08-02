@@ -1,4 +1,4 @@
-package redlaboratory.globalkeyboardmanager;
+package redlaboratory.globalinputmanager;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,10 +8,10 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import redlaboratory.globalkeyboardmanager.hookEvent.GlobalKeyboardEvent;
-import redlaboratory.globalkeyboardmanager.hookEvent.GlobalKeyboardEventHandler;
-import redlaboratory.globalkeyboardmanager.hookEvent.GlobalMouseEvent;
-import redlaboratory.globalkeyboardmanager.hookEvent.GlobalMouseEventHandler;
+import redlaboratory.globalinputmanager.hookEvent.GlobalKeyboardEvent;
+import redlaboratory.globalinputmanager.hookEvent.GlobalKeyboardEventHandler;
+import redlaboratory.globalinputmanager.hookEvent.GlobalMouseEvent;
+import redlaboratory.globalinputmanager.hookEvent.GlobalMouseEventHandler;
 
 public class GlobalHook {
 	
@@ -27,9 +27,9 @@ public class GlobalHook {
 		
 		if (System.getProperty("os.name").toLowerCase().contains("windows")) {
 			if (System.getProperty("os.arch").contains("64")) {
-				loadLibrary("/redlaboratory/globalkeyboardmanager/lib/windows/libGlobalHook64.dll");
+				loadLibrary("/redlaboratory/globalinputmanager/lib/windows/libGlobalHook64.dll");
 			} else {
-				loadLibrary("/redlaboratory/globalkeyboardmanager/lib/windows/libGlobalHook32.dll");
+				loadLibrary("/redlaboratory/globalinputmanager/lib/windows/libGlobalHook32.dll");
 			}
 		}
 	}

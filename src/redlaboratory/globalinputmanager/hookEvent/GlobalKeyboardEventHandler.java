@@ -1,4 +1,4 @@
-package redlaboratory.globalkeyboardmanager.hookEvent;
+package redlaboratory.globalinputmanager.hookEvent;
 
 public interface GlobalKeyboardEventHandler {
 	
