@@ -1,4 +1,4 @@
-package redlaboratory.globalinput;
+package redlaboratory.globalkeyboardmanager;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -23,9 +23,9 @@ public class GlobalInput {
 		
 		if (System.getProperty("os.name").toLowerCase().contains("windows")) {
 			if (System.getProperty("os.arch").contains("64")) {
-				loadLibrary("/redlaboratory/globalinput/lib/windows/libUnicodeTyper64.dll");
+				loadLibrary("/redlaboratory/globalkeyboardmanager/lib/windows/libUnicodeTyper64.dll");
 			} else {
-				loadLibrary("/redlaboratory/globalinput/lib/windows/libUnicodeTyper32.dll");
+				loadLibrary("/redlaboratory/globalkeyboardmanager/lib/windows/libUnicodeTyper32.dll");
 			}
 		}
 	}

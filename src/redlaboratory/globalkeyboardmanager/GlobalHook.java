@@ -27,9 +27,9 @@ public class GlobalHook {
 		
 		if (System.getProperty("os.name").toLowerCase().contains("windows")) {
 			if (System.getProperty("os.arch").contains("64")) {
-				loadLibrary("/redlaboratory/globalhook/lib/windows/libGlobalHook64.dll");
+				loadLibrary("/redlaboratory/globalkeyboardmanager/lib/windows/libGlobalHook64.dll");
 			} else {
-				loadLibrary("/redlaboratory/globalhook/lib/windows/libGlobalHook32.dll");
+				loadLibrary("/redlaboratory/globalkeyboardmanager/lib/windows/libGlobalHook32.dll");
 			}
 		}
 	}
