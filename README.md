@@ -9,13 +9,15 @@ Dll file is programmed in C with JNI to hook keyboard.
 This class is used to hook native keyboard and mouse input messages.
 You can register `GlobalKeyboardEventHandler` using `GlobalHook.registerKeyboardEventHandler`.
 
-	public interface GlobalKeyboardEventHandler {
-	
-		void keyPressed(GlobalKeyboardEvent event);
-	
-		void keyReleased(GlobalKeyboardEvent event);
-	
-	}
+```Java
+public interface GlobalKeyboardEventHandler {
+
+	void keyPressed(GlobalKeyboardEvent event);
+
+	void keyReleased(GlobalKeyboardEvent event);
+
+}
+```
 
 In keyPressed method, you can cancel key input by calling `event.setCanceled(true);`.
 
