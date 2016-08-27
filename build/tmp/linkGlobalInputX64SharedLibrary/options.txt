@@ -1,0 +1,6 @@
+-shared
+-o
+"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\build\\libs\\globalInput\\shared\\x64\\GlobalInput.dll"
+"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\build\\objs\\globalInput\\shared\\x64\\GlobalInputC\\1rad80txrnrmaux2xqeyu9exu\\redlaboratory_globalinputmanager_GlobalInput.obj"
+"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\build\\objs\\globalInput\\shared\\x64\\GlobalInputC\\80weafn2gvnclqqf9xzvqbrj2\\UnicodeTyper.obj"
+-m64

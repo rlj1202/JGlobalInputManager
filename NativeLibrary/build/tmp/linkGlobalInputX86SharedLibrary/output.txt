@@ -1,0 +1,4 @@
+See file:///C:/Users/지수/Dropbox/RedLaboratory/Eclipse/Put%20out%20a%20fire/JGlobalInputManager/NativeLibrary/build/tmp/linkGlobalInputX86SharedLibrary/output.txt for all output for linkGlobalInputX86SharedLibrary.
+linking GlobalInput.dll successful.
+
+Finished linkGlobalInputX86SharedLibrary, see full log file:///C:/Users/지수/Dropbox/RedLaboratory/Eclipse/Put%20out%20a%20fire/JGlobalInputManager/NativeLibrary/build/tmp/linkGlobalInputX86SharedLibrary/output.txt.

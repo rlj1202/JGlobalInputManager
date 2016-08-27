@@ -1,0 +1,8 @@
+-x
+c
+-c
+"-IC:/Program Files/Java/jdk1.8.0_101/include"
+"-IC:/Program Files/Java/jdk1.8.0_101/include/win32"
+-I
+"C:\\Users\\Áö¼ö\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\NativeLibrary\\src\\main\\c\\globalhook"
+-m64

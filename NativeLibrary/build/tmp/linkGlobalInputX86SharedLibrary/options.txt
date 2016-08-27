@@ -1,0 +1,8 @@
+-shared
+-o
+"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\NativeLibrary\\build\\libs\\globalInput\\shared\\x86\\GlobalInput.dll"
+"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\NativeLibrary\\build\\objs\\globalInput\\shared\\x86\\GlobalInputC\\8n6opyq45pqhh4008o5mauigh\\redlaboratory_globalinputmanager_GlobalInput.obj"
+"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\NativeLibrary\\build\\objs\\globalInput\\shared\\x86\\GlobalInputC\\bmryk225gggvi2rn2wj9clx7j\\GlobalInput.obj"
+-m32
+-LC:/MinGW/lib
+-LC:/MinGW/lib/gcc/mingw32/4.9.3

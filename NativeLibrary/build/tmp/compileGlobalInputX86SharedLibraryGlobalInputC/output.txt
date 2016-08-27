@@ -1,0 +1,6 @@
+See file:///C:/Users/지수/Dropbox/RedLaboratory/Eclipse/Put%20out%20a%20fire/JGlobalInputManager/NativeLibrary/build/tmp/compileGlobalInputX86SharedLibraryGlobalInputC/output.txt for all output for compileGlobalInputX86SharedLibraryGlobalInputC.
+compiling redlaboratory_globalinputmanager_GlobalInput.h successful.
+
+compiling GlobalInput.c successful.
+
+Finished compileGlobalInputX86SharedLibraryGlobalInputC, see full log file:///C:/Users/지수/Dropbox/RedLaboratory/Eclipse/Put%20out%20a%20fire/JGlobalInputManager/NativeLibrary/build/tmp/compileGlobalInputX86SharedLibraryGlobalInputC/output.txt.
