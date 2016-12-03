@@ -1,6 +1,6 @@
 -shared
 -o
-"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\NativeLibrary\\build\\libs\\globalInput\\shared\\x64\\GlobalInput.dll"
-"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\NativeLibrary\\build\\objs\\globalInput\\shared\\x64\\GlobalInputC\\8n6opyq45pqhh4008o5mauigh\\redlaboratory_globalinputmanager_GlobalInput.obj"
-"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\NativeLibrary\\build\\objs\\globalInput\\shared\\x64\\GlobalInputC\\bmryk225gggvi2rn2wj9clx7j\\GlobalInput.obj"
+D:\\RedLaboratory\\Eclipse\\Workspace\\JGlobalInputManager\\NativeLibrary\\build\\libs\\globalInput\\shared\\x64\\GlobalInput.dll
+D:\\RedLaboratory\\Eclipse\\Workspace\\JGlobalInputManager\\NativeLibrary\\build\\objs\\globalInput\\shared\\x64\\GlobalInputC\\4lcxeqq3t4jzlqpat1i5wa4m5\\redlaboratory_globalinputmanager_GlobalInput.obj
+D:\\RedLaboratory\\Eclipse\\Workspace\\JGlobalInputManager\\NativeLibrary\\build\\objs\\globalInput\\shared\\x64\\GlobalInputC\\f1lqx5ts2fdmp4tpyfqzv8pz4\\GlobalInput.obj
 -m64

@@ -4,6 +4,6 @@ c
 "-IC:/Program Files/Java/jdk1.8.0_101/include"
 "-IC:/Program Files/Java/jdk1.8.0_101/include/win32"
 -I
-"C:\\Users\\Áö¼ö\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\NativeLibrary\\src\\main\\c\\globalhook"
+D:\\RedLaboratory\\Eclipse\\Workspace\\JGlobalInputManager\\NativeLibrary\\src\\main\\c\\globalhook
 -m32
 "-IC:/Program Files/mingw-w64/x86_64-6.1.0-win32-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include"
