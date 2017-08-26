@@ -1,4 +1,6 @@
 # JGlobalInputManager
+[![](https://jitpack.io/v/rlj1202/JGlobalInputManager.svg)](https://jitpack.io/#rlj1202/JGlobalInputManager)
+
 This is a project to manage native keyboard and mouse in Java.
 Only supported with Windows, currently.
 
