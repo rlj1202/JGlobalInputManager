@@ -1,8 +1,0 @@
--shared
--o
-D:\\RedLaboratory\\Eclipse\\Workspace\\JGlobalInputManager\\NativeLibrary\\build\\libs\\globalHook\\shared\\x86\\GlobalHook.dll
-D:\\RedLaboratory\\Eclipse\\Workspace\\JGlobalInputManager\\NativeLibrary\\build\\objs\\globalHook\\shared\\x86\\GlobalHookC\\ci9pb8wcsh2up5fcimm61utvk\\redlaboratory_globalinputmanager_GlobalHook.obj
-D:\\RedLaboratory\\Eclipse\\Workspace\\JGlobalInputManager\\NativeLibrary\\build\\objs\\globalHook\\shared\\x86\\GlobalHookC\\g63spcajgz9vuuedejo781e2\\GlobalHook.obj
--m32
--LC:/MinGW/lib
--LC:/MinGW/lib/gcc/mingw32/4.9.3

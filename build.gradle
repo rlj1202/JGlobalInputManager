@@ -1,4 +1,44 @@
 apply plugin: 'java'
+apply plugin: 'java-library-distribution'
+apply plugin: 'c'
+
+model {
+	platforms {
+		x64 {
+			architecture 'x64'
+		}
+	}
+	components {
+		GlobalHook(NativeLibrarySpec) {
+			targetPlatform "x64"
+
+			sources.c.source {
+				srcDir "src/main/c/globalhook"
+			}
+			binaries {
+				all {
+					cCompiler.args '-IC:/Program Files/Java/jdk1.8.0_121/include', '-IC:/Program Files/Java/jdk1.8.0_121/include/win32'
+				}
+			}
+		}
+		GlobalInput(NativeLibrarySpec) {
+			targetPlatform "x64"
+
+			sources.c.source {
+				srcDir "src/main/c/globalinput"
+			}
+			binaries {
+				all {
+					cCompiler.args '-IC:/Program Files/Java/jdk1.8.0_121/include', '-IC:/Program Files/Java/jdk1.8.0_121/include/win32'
+				}
+			}
+		}
+	}
+}
+
+distributions {
+	main
+}
 
 sourceSets {
 	main {
@@ -11,47 +51,29 @@ sourceSets {
 	}
 }
 
-processResources {
-	dependsOn ':NativeLibrary:build'
-	
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+version = '0.1.0'
+
+jar {
+	dependsOn ':linkGlobalHookSharedLibrary', ':linkGlobalInputSharedLibrary'
+
+	manifest {
+		attributes "Title": project.name, "Version": version
+	}
+
 	copy {
-		from("${project(":NativeLibrary").buildDir}/libs/globalHook/shared/x86/GlobalHook.dll") {
-			rename { fileName -> "lib" + fileName.substring(0, fileName.lastIndexOf('.')) + "32.dll" }
-		}
-		from("${project(":NativeLibrary").buildDir}/libs/globalHook/shared/x64/GlobalHook.dll") {
-			rename { fileName -> "lib" + fileName.substring(0, fileName.lastIndexOf('.')) + "64.dll" }
-		}
-		
-		from("${project(":NativeLibrary").buildDir}/libs/globalInput/shared/x86/GlobalInput.dll") {
-			rename { fileName -> "lib" + fileName.substring(0, fileName.lastIndexOf('.')) + "32.dll" }
-		}
-		from("${project(":NativeLibrary").buildDir}/libs/globalInput/shared/x64/GlobalInput.dll") {
-			rename { fileName -> "lib" + fileName.substring(0, fileName.lastIndexOf('.')) + "64.dll" }
-		}
-		
+		from tasks.getByPath(':linkGlobalHookSharedLibrary').outputs
+		from tasks.getByPath(':linkGlobalInputSharedLibrary').outputs
+
+		include '*.dll'
+		rename { fileName -> "lib" + fileName.substring(0, fileName.lastIndexOf('.')) + "64.dll" }
+
 		into 'src/main/java/redlaboratory/globalinputmanager/lib/windows'
 	}
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-def title = 'JGlobalInputManager'
-version = '0.1.0'
-
-jar {
-	manifest {
-		attributes 'Title': title, 'Version': version
-	}
-
-	from sourceSets.main.output
-	from 'README.md'
-	
-	exclude 'redlaboratory/globalinputmanager/test/**'
-	
-	baseName = title
-}
-
 task wrapper(type: Wrapper) {
-	gradleVersion = '3.2.1'
+	gradleVersion = '4.1'
 }

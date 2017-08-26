@@ -1,4 +1,0 @@
-See file:///C:/Users/지수/Dropbox/RedLaboratory/Eclipse/Put%20out%20a%20fire/JGlobalInputManager/build/tmp/linkGlobalHookX86SharedLibrary/output.txt for all output for linkGlobalHookX86SharedLibrary.
-linking GlobalHook.dll successful.
-
-Finished linkGlobalHookX86SharedLibrary, see full log file:///C:/Users/지수/Dropbox/RedLaboratory/Eclipse/Put%20out%20a%20fire/JGlobalInputManager/build/tmp/linkGlobalHookX86SharedLibrary/output.txt.

@@ -1,4 +1,0 @@
-See file:///D:/RedLaboratory/Eclipse/Workspace/JGlobalInputManager/NativeLibrary/build/tmp/linkGlobalHookX86SharedLibrary/output.txt for all output for linkGlobalHookX86SharedLibrary.
-linking GlobalHook.dll successful.
-
-Finished linkGlobalHookX86SharedLibrary, see full log file:///D:/RedLaboratory/Eclipse/Workspace/JGlobalInputManager/NativeLibrary/build/tmp/linkGlobalHookX86SharedLibrary/output.txt.

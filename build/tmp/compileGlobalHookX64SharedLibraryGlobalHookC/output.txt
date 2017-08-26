@@ -1,6 +1,0 @@
-See file:///C:/Users/지수/Dropbox/RedLaboratory/Eclipse/Put%20out%20a%20fire/JGlobalInputManager/build/tmp/compileGlobalHookX64SharedLibraryGlobalHookC/output.txt for all output for compileGlobalHookX64SharedLibraryGlobalHookC.
-compiling redlaboratory_globalinputmanager_GlobalHook.h successful.
-
-compiling GlobalHook.c successful.
-
-Finished compileGlobalHookX64SharedLibraryGlobalHookC, see full log file:///C:/Users/지수/Dropbox/RedLaboratory/Eclipse/Put%20out%20a%20fire/JGlobalInputManager/build/tmp/compileGlobalHookX64SharedLibraryGlobalHookC/output.txt.

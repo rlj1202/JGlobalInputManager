@@ -1,6 +1,0 @@
--shared
--o
-"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\build\\libs\\globalHook\\shared\\x64\\GlobalHook.dll"
-"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\build\\objs\\globalHook\\shared\\x64\\GlobalHookC\\8f7183ogqg5uje7sztw7g1vb1\\redlaboratory_globalinputmanager_GlobalHook.obj"
-"C:\\Users\\지수\\Dropbox\\RedLaboratory\\Eclipse\\Put out a fire\\JGlobalInputManager\\build\\objs\\globalHook\\shared\\x64\\GlobalHookC\\bd3r4j3dk7q9kbkv2h5s4yafd\\GlobalHook.obj"
--m64

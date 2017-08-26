@@ -1,6 +1,0 @@
-See file:///D:/RedLaboratory/Eclipse/Workspace/JGlobalInputManager/NativeLibrary/build/tmp/compileGlobalHookX64SharedLibraryGlobalHookC/output.txt for all output for compileGlobalHookX64SharedLibraryGlobalHookC.
-compiling redlaboratory_globalinputmanager_GlobalHook.h successful.
-
-compiling GlobalHook.c successful.
-
-Finished compileGlobalHookX64SharedLibraryGlobalHookC, see full log file:///D:/RedLaboratory/Eclipse/Workspace/JGlobalInputManager/NativeLibrary/build/tmp/compileGlobalHookX64SharedLibraryGlobalHookC/output.txt.

@@ -1,4 +1,0 @@
-See file:///D:/RedLaboratory/Eclipse/Workspace/JGlobalInputManager/NativeLibrary/build/tmp/linkGlobalInputX64SharedLibrary/output.txt for all output for linkGlobalInputX64SharedLibrary.
-linking GlobalInput.dll successful.
-
-Finished linkGlobalInputX64SharedLibrary, see full log file:///D:/RedLaboratory/Eclipse/Workspace/JGlobalInputManager/NativeLibrary/build/tmp/linkGlobalInputX64SharedLibrary/output.txt.
